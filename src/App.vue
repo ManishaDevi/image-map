@@ -8,6 +8,7 @@
       usemap="#tShirt"
     >
     <map name="tShirt">
+      <!-- Used https://www.image-map.net to generate the coordinates -->
       <area @mouseover="showMessage('Democrat')" coords="258, 180, 436, 215" shape="rect">
       <area @mouseover="showMessage('Republican')" coords="258, 244, 449, 283" shape="rect">
       <area @mouseover="showMessage('Gladiator')" coords="428, 351, 257, 312" shape="rect">
